@@ -8,11 +8,11 @@
   "tvOS" : [
 
   ],
-  "commitish" : "5ff81debff1480c4987e0162a5b339b5a5bf6aca",
+  "commitish" : "1.0",
   "iOS" : [
     {
       "name" : "TextFieldValidator",
-      "hash" : "44d64b29806b29d233e7cf5bdbf4eafc1f3a5e68e370e90b4ae8fb1ab298c4c7",
+      "hash" : "09e2914b5b604d5db511c778d416e0c4b3403be9d205d25811cabf7206343b47",
       "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
     }
   ]
