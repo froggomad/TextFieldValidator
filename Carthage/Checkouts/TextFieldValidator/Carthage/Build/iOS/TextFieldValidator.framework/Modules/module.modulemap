@@ -1,0 +1,11 @@
+framework module TextFieldValidator {
+  umbrella header "TextFieldValidator.h"
+
+  export *
+  module * { export * }
+}
+
+module TextFieldValidator.Swift {
+    header "TextFieldValidator-Swift.h"
+    requires objc
+}

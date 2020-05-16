@@ -25,6 +25,7 @@
 		B9FB29D8246EDBE3005D1460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9FB29DB246EDBE3005D1460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9FB29DD246EDBE3005D1460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FB2A00246EEC18005D1460 /* EmptyTextfieldAlerter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EmptyTextfieldAlerter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9FB2A07246F751B005D1460 /* TextFieldValidator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TextFieldValidator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				B9FB2A07246F751B005D1460 /* TextFieldValidator.framework */,
+				B9FB2A00246EEC18005D1460 /* EmptyTextfieldAlerter.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

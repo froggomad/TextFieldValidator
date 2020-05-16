@@ -1,7 +1,7 @@
 BCSymbolMap Version: 2.0
 Apple clang version 11.0.3 (clang-1103.0.32.59)
-/Users/kenny/Library/Caches/org.carthage.CarthageKit/DerivedData/11.4.1_11E503a/TextFieldValidator/v1.0/Build/Intermediates.noindex/ArchiveIntermediates/TextFieldValidator/IntermediateBuildFilesPath/TextFieldValidator.build/Release-iphoneos/TextFieldValidator.build/DerivedSources/TextFieldValidator_vers.c
-/Users/kenny/Xcode Projects/Xcode projects/Frameworks/TextFieldValidator/Carthage/Checkouts/TextFieldValidator
+/Users/kenny/Library/Developer/Xcode/DerivedData/TextFieldValidator-bicgtggpljtooxcxujzywqaunghq/Build/Intermediates.noindex/ArchiveIntermediates/TextFieldValidator/IntermediateBuildFilesPath/TextFieldValidator.build/Release-iphoneos/TextFieldValidator.build/DerivedSources/TextFieldValidator_vers.c
+/Users/kenny/Xcode Projects/Xcode projects/Frameworks/TextFieldValidator
 _$s18TextFieldValidatorAACySSSgSo06UITextB0CSgciM.resume.0
 _$sSlsSQ7ElementRpzrlE10firstIndex2of0C0QzSgAB_tFSay18TextFieldValidator0eF5ModelCG_Tg5
 _$sSa6remove2atxSi_tF18TextFieldValidator0cD5ModelC_Tg5
@@ -81,7 +81,7 @@ _objc_classes
 Apple clang version 11.0.3 (clang-1103.0.32.51)
 <swift-imported-modules>
 Apple Swift version 5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)
-/Users/kenny/Xcode Projects/Xcode projects/Frameworks/TextFieldValidator/Carthage/Checkouts/TextFieldValidator/TextFieldValidator/TextFieldValidator.swift
+/Users/kenny/Xcode Projects/Xcode projects/Frameworks/TextFieldValidator/TextFieldValidator/TextFieldValidator.swift
 $sSaySSGSayxGSKsWl
 <compiler-generated>
 $s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
@@ -267,5 +267,5 @@ _$s18TextFieldValidator0aB5ModelC7messageSSvMTq
 _$s18TextFieldValidator0aB5ModelC4textSSvgTq
 _$s18TextFieldValidator0aB5ModelC9textfield7messageACSo06UITextB0C_SStcfCTq
 _$s18TextFieldValidator0aB5ModelCN
-/Users/kenny/Xcode Projects/Xcode projects/Frameworks/TextFieldValidator/Carthage/Checkouts/TextFieldValidator/TextFieldValidator/TextFieldModel.swift
+/Users/kenny/Xcode Projects/Xcode projects/Frameworks/TextFieldValidator/TextFieldValidator/TextFieldModel.swift
 $s18TextFieldValidator0aB5ModelCMa
