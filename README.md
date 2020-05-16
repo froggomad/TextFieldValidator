@@ -18,7 +18,7 @@ sample usage:
             with: "Your Name"
   )
   //check all textFields that have been set on this validator and alert a message for each empty textField:
-  alerter.alertIfEmpty()
+  alerter.alertIfEmpty(title: "Please Enter Your:")
 
   //for more complex operations, there's a closure that returns Void
   /*
@@ -29,3 +29,6 @@ sample usage:
   */
 }
 ```
+
+![iPhone SE2 Screenshot](/Resources/SE_Screenshot.png?raw=true "Optional Title")
+
