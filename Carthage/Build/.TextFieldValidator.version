@@ -1,0 +1,19 @@
+{
+  "Mac" : [
+
+  ],
+  "watchOS" : [
+
+  ],
+  "tvOS" : [
+
+  ],
+  "commitish" : "5ff81debff1480c4987e0162a5b339b5a5bf6aca",
+  "iOS" : [
+    {
+      "name" : "TextFieldValidator",
+      "hash" : "44d64b29806b29d233e7cf5bdbf4eafc1f3a5e68e370e90b4ae8fb1ab298c4c7",
+      "swiftToolchainVersion" : "5.2.2 (swiftlang-1103.0.32.6 clang-1103.0.32.51)"
+    }
+  ]
+}
