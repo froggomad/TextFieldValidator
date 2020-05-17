@@ -12,7 +12,7 @@ Carthage is a decentralized dependency manager that builds your dependencies and
 `github "froggomad/TextFieldValidator" ~> 3.1`
 Then add the resulting Framework (normally found in the `Carthage/Build` folder) to your project as you normally would.
 
-### sample usage:
+## Sample usage:
 
 ```
 @IBOutlet private var nameField: UITextField!
