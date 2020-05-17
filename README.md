@@ -28,13 +28,13 @@ Then add the resulting Framework (normally found in the `Carthage/Build` folder)
             with: "Your Name"
   )
   //check all textFields that have been set on this validator and alert a message for each empty textField:
-  alerter.alertIfEmpty(title: "Please Enter Your:")
+  validator.alertIfEmpty(title: "Please Enter Your:")
 
   //for more complex operations, there's a closure that returns Void
   /*
-  alerter.alertIfEmpty() {
+  validator.alertIfEmpty() {
       //The getText method returns the textField's text safely unwrapped or an empty String if it fails
-      print(self.alerter.getText(from: self.nameField))
+      print(self.validator.getText(from: self.nameField))
   }
   */
 }
