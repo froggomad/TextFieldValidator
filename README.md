@@ -9,7 +9,7 @@ This version of TextFieldValidator validates UITextFields to ensure that they co
 ### Carthage Installation <a id="carthage-installation" class="anchor" aria-hidden="true" href="#standard-pod-install"> </a>
 Carthage is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks. To integrate TextFieldValidator into your Xcode project using Carthage, specify it in your Cartfile:
 
-`github "froggomad/TextFieldValidator" ~> 3.1`
+`github "froggomad/TextFieldValidator"`
 Then add the resulting Framework (normally found in the `Carthage/Build` folder) to your project as you normally would.
 
 ## Sample usage:
