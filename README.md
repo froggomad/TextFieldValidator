@@ -1,6 +1,6 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 # TextFieldValidator
-This version of TextFieldValidator validates TextFields to ensure that they contain text. If not, it presents a UIAlert with a nicely formatted custom message.
+This version of TextFieldValidator validates UITextFields to ensure that they contain text. If not, it presents a UIAlert with a nicely formatted custom message.
 
 ## Installation
 
