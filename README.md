@@ -1,6 +1,13 @@
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 # TextFieldValidator
-Validates if TextFields are empty and presents a UIAlert with a nicely formatted message
+This version of TextFieldValidator validates TextFields to ensure that they contain text. If not, it presents a UIAlert with a nicely formatted custom message.
+
+## Installation
+
+1. [Carthage](README.md#carthage-installation)
+
+### Carthage Installation <a id="carthage-installation" class="anchor" aria-hidden="true" href="#standard-pod-install"> </a>
+
 
 sample usage:
 
