@@ -44,6 +44,11 @@ public class TextFieldValidator {
     }
     
     // MARK: Create/Update
+    /**
+        Set a UITextField's message if it's empty when `alertIfEmpty()` is called
+        - nil textFields won't be set
+     - parameter with: The textField's message if there's no text in it when `alertIfEmpty()` is called
+     */
     public func set(_ textField: UITextField?, with message: String) {
         //find the first match in textFieldModels where the textField is the same
         if let textfieldMessage = textFieldModels.first(where: {
@@ -62,11 +67,13 @@ public class TextFieldValidator {
     }
 
     //MARK: - Read -
+    ///get a textField's text, or an empty string if there is none
     public func getText(from textField: UITextField) -> String {
         return self[textField] ?? ""
     }
 
     //MARK: - Delete -
+    ///remove a textField and it's message from the validator
     public func removeTextField(_ textfield: UITextField) {
         guard let textfieldMessage = textFieldModels.first(where: {
             $0.textField == textfield
@@ -76,7 +83,7 @@ public class TextFieldValidator {
         textFieldModels.remove(at: index)
     }
 
-    //MARK: - Methods -
+    //MARK: - Alert -
     /**
         Checks all of the textFields that have been added, and presents an alert on the active ViewController
      - parameter title: The title of the alert
