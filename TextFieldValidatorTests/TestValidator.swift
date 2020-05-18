@@ -42,11 +42,18 @@ class TestValidator: XCTestCase {
         XCTAssertEqual(validator?[textField], "There's no text")
     }
 
+    func testGetTextMethod() throws {
+        let textField = UITextField()
+        validator?[textField] = "There's no text"
+        XCTAssertEqual(validator?.getText(from: textField), "There's no text")
+        validator?.removeTextField(textField)
+        XCTAssertEqual(validator?.getText(from: textField), "")
+    }
+
     func testRemoveMethod() throws {
         let textField = UITextField()
         validator?[textField] = "There's no text"
         validator?.removeTextField(textField)
         XCTAssertNil(validator?[textField])
     }
-
 }
