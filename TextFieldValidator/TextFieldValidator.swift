@@ -23,9 +23,14 @@ public class TextFieldValidator {
         get {
             if let textField = textField {
                 //filter the messages array checking to see if the textfields match. If they do, get the first result and return the message
-                return textFieldModels.filter {
+                let filteredTextFieldModels = textFieldModels.filter {
                     $0.textField == textField
-                }[0].message
+                }
+                if filteredTextFieldModels.count >= 1 {
+                    return textFieldModels.filter {
+                        $0.textField == textField
+                    }[0].message
+                }
             }
             return nil
         }

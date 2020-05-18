@@ -10,6 +10,9 @@
 		B9FB29B9246ED1D9005D1460 /* TextFieldValidator.h in Headers */ = {isa = PBXBuildFile; fileRef = B9FB29B7246ED1D9005D1460 /* TextFieldValidator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9FB29C0246ED2E4005D1460 /* TextFieldValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB29BF246ED2E4005D1460 /* TextFieldValidator.swift */; };
 		B9FB29C2246ED631005D1460 /* TextFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB29C1246ED631005D1460 /* TextFieldModel.swift */; };
+		B9FB2A522472F071005D1460 /* TextFieldValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB2A512472F071005D1460 /* TextFieldValidatorTests.swift */; };
+		B9FB2A542472F071005D1460 /* TextFieldValidator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FB29B4246ED1D9005D1460 /* TextFieldValidator.framework */; };
+		B9FB2A5C2472F0AB005D1460 /* TestValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB2A5B2472F0AB005D1460 /* TestValidator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +23,13 @@
 			remoteGlobalIDString = B9FB29CC246EDBE1005D1460;
 			remoteInfo = TestValidator;
 		};
+		B9FB2A552472F071005D1460 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9FB29AB246ED1D9005D1460 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9FB29B3246ED1D9005D1460;
+			remoteInfo = TextFieldValidator;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +39,10 @@
 		B9FB29BF246ED2E4005D1460 /* TextFieldValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextFieldValidator.swift; path = ../TextFieldValidator.swift; sourceTree = "<group>"; };
 		B9FB29C1246ED631005D1460 /* TextFieldModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TextFieldModel.swift; path = ../TextFieldModel.swift; sourceTree = "<group>"; };
 		B9FB2A1C246F9075005D1460 /* TestValidator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestValidator.xcodeproj; path = "iOS Test/TestValidator/TestValidator.xcodeproj"; sourceTree = "<group>"; };
+		B9FB2A4F2472F071005D1460 /* TextFieldValidatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldValidatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9FB2A512472F071005D1460 /* TextFieldValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidatorTests.swift; sourceTree = "<group>"; };
+		B9FB2A532472F071005D1460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9FB2A5B2472F0AB005D1460 /* TestValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestValidator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9FB2A4C2472F071005D1460 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FB2A542472F071005D1460 /* TextFieldValidator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +69,7 @@
 			children = (
 				B9FB29B6246ED1D9005D1460 /* TextFieldValidator */,
 				B9FB2A1C246F9075005D1460 /* TestValidator.xcodeproj */,
+				B9FB2A502472F071005D1460 /* TextFieldValidatorTests */,
 				B9FB29B5246ED1D9005D1460 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -55,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				B9FB29B4246ED1D9005D1460 /* TextFieldValidator.framework */,
+				B9FB2A4F2472F071005D1460 /* TextFieldValidatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +118,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B9FB2A502472F071005D1460 /* TextFieldValidatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9FB2A512472F071005D1460 /* TextFieldValidatorTests.swift */,
+				B9FB2A5B2472F0AB005D1460 /* TestValidator.swift */,
+				B9FB2A532472F071005D1460 /* Info.plist */,
+			);
+			path = TextFieldValidatorTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -126,18 +160,40 @@
 			productReference = B9FB29B4246ED1D9005D1460 /* TextFieldValidator.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		B9FB2A4E2472F071005D1460 /* TextFieldValidatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9FB2A5A2472F071005D1460 /* Build configuration list for PBXNativeTarget "TextFieldValidatorTests" */;
+			buildPhases = (
+				B9FB2A4B2472F071005D1460 /* Sources */,
+				B9FB2A4C2472F071005D1460 /* Frameworks */,
+				B9FB2A4D2472F071005D1460 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9FB2A562472F071005D1460 /* PBXTargetDependency */,
+			);
+			name = TextFieldValidatorTests;
+			productName = TextFieldValidatorTests;
+			productReference = B9FB2A4F2472F071005D1460 /* TextFieldValidatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		B9FB29AB246ED1D9005D1460 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Hazy Studios";
 				TargetAttributes = {
 					B9FB29B3246ED1D9005D1460 = {
 						CreatedOnToolsVersion = 11.4.1;
 						LastSwiftMigration = 1140;
+					};
+					B9FB2A4E2472F071005D1460 = {
+						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
@@ -161,6 +217,7 @@
 			projectRoot = "";
 			targets = (
 				B9FB29B3246ED1D9005D1460 /* TextFieldValidator */,
+				B9FB2A4E2472F071005D1460 /* TextFieldValidatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,6 +240,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9FB2A4D2472F071005D1460 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,7 +259,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B9FB2A4B2472F071005D1460 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9FB2A5C2472F0AB005D1460 /* TestValidator.swift in Sources */,
+				B9FB2A522472F071005D1460 /* TextFieldValidatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9FB2A562472F071005D1460 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9FB29B3246ED1D9005D1460 /* TextFieldValidator */;
+			targetProxy = B9FB2A552472F071005D1460 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		B9FB29BA246ED1D9005D1460 /* Debug */ = {
@@ -369,6 +450,42 @@
 			};
 			name = Release;
 		};
+		B9FB2A572472F071005D1460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34P4RF23ET;
+				INFOPLIST_FILE = TextFieldValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hazystudios.TextFieldValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9FB2A582472F071005D1460 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 34P4RF23ET;
+				INFOPLIST_FILE = TextFieldValidatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hazystudios.TextFieldValidatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -386,6 +503,15 @@
 			buildConfigurations = (
 				B9FB29BD246ED1D9005D1460 /* Debug */,
 				B9FB29BE246ED1D9005D1460 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9FB2A5A2472F071005D1460 /* Build configuration list for PBXNativeTarget "TextFieldValidatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9FB2A572472F071005D1460 /* Debug */,
+				B9FB2A582472F071005D1460 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
