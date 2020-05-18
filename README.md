@@ -34,11 +34,11 @@ Then from your project's directory in the command line, run:
 @IBAction func doneButtonTapped(_ sender: UIButton) {
   let validator = TextFieldValidator(viewController: self)
   //set messages for specific UITextFields via subscripting:
-  validator[emailField] = "Your E-mail Address"
+  validator[emailField] = "E-mail Address"
   //or use the TextFieldValidator.set method:
   validator.set(
             nameField,
-            with: "Your Name"
+            with: "Name"
   )
   //check all textFields that have been set on this validator and alert a message for each empty textField:
   validator.alertIfEmpty(title: "Please Enter Your:")
