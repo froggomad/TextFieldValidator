@@ -44,7 +44,7 @@ public class TextFieldValidator {
     }
     
     // MARK: Create/Update
-    public func set(_ textField: UITextField, with message: String) {
+    public func set(_ textField: UITextField?, with message: String) {
         //find the first match in textFieldModels where the textField is the same
         if let textfieldMessage = textFieldModels.first(where: {
             $0.textField == textField
@@ -52,6 +52,7 @@ public class TextFieldValidator {
             textfieldMessage.message = message
         } else {
             //if not found, create a new one and append
+            guard let textField = textField else { return }
             let textfieldMessage = TextFieldModel(
                 textfield: textField,
                 message: message

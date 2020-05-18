@@ -24,8 +24,7 @@ class TestValidator: XCTestCase {
     func testNilTextField() throws {
         let nilField: UITextField?
         nilField = nil
-        XCTAssertNil(nilField)
-        validator?.set(nilField ?? UITextField(), with: "This is nil")
+        validator?.set(nilField, with: "This is nil")
         XCTAssertNil(validator?[nilField])
         validator?[nilField] = "This is nil"
         XCTAssertNil(validator?[nilField])
